@@ -1,8 +1,23 @@
-body {
-    background-image: url("fondo negro.jpg");
-    background-color: #000000; /* Color de fondo de respaldo */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #0a09097e;
+    border-bottom: 2px solid rgb(10, 10, 10);
+    animation: 1s ease-out 0s 1 slideInFromLeft;
 }
+h1 {
+    padding: 5px; 
+    margin: 10px; 
+    border: 2px solid rgb(44, 32, 32); 
+    background-color: #0a09097e(216, 77, 77); 
+    color: rgb(244, 238, 238); 
+    text-align: center;
+    font-size: 30px;
+    border-radius: 12px;
+    animation: color-change 2s infinite;
+}
+table {
 
-.white-text {
-    color: antiquewhite;
 }
