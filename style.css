@@ -71,11 +71,7 @@ nav {
   letter-spacing: -0.02em;
 }
 
-.nav-links {
-  display: flex;
-  gap: 32px;
-  list-style: none;
-}
+.nav-links { display: flex; gap: 32px; list-style: none; }
 
 .nav-links a {
   font-size: 13px;
@@ -117,12 +113,7 @@ nav {
   opacity: 0;
   animation: fadeUp 0.6s ease forwards;
 }
-
-.hero-tag::before {
-  content: '';
-  width: 24px; height: 1px;
-  background: var(--teal);
-}
+.hero-tag::before { content: ''; width: 24px; height: 1px; background: var(--teal); }
 
 .hero h1 {
   font-family: 'Syne', sans-serif;
@@ -173,28 +164,18 @@ nav {
 .btn {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
   padding: 12px 28px;
   border-radius: 6px;
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
   transition: all 0.2s;
-  cursor: pointer;
 }
 
-.btn-primary {
-  background: linear-gradient(135deg, var(--blue2), var(--blue));
-  color: #fff;
-  border: none;
-}
+.btn-primary { background: linear-gradient(135deg, var(--blue2), var(--blue)); color: #fff; border: none; }
 .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(66,153,225,0.35); }
 
-.btn-outline {
-  background: transparent;
-  color: var(--blue);
-  border: 1px solid rgba(99,179,237,0.4);
-}
+.btn-outline { background: transparent; color: var(--blue); border: 1px solid rgba(99,179,237,0.4); }
 .btn-outline:hover { background: var(--accent-glow); border-color: var(--blue); transform: translateY(-2px); }
 
 .scroll-hint {
@@ -209,47 +190,16 @@ nav {
   opacity: 0;
   animation: fadeUp 0.6s ease 0.6s forwards;
 }
-
-.scroll-line {
-  width: 40px; height: 1px;
-  background: linear-gradient(90deg, var(--blue), transparent);
-}
+.scroll-line { width: 40px; height: 1px; background: linear-gradient(90deg, var(--blue), transparent); }
 
 section { padding: 100px 0; }
 
-.section-header {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  margin-bottom: 56px;
-}
+.section-header { display: flex; align-items: center; gap: 16px; margin-bottom: 56px; }
+.section-num { font-family: 'Syne', sans-serif; font-size: 12px; font-weight: 700; color: var(--blue); letter-spacing: 0.1em; }
+.section-header h2 { font-family: 'Syne', sans-serif; font-size: 32px; font-weight: 800; letter-spacing: -0.02em; }
+.section-line { flex: 1; height: 1px; background: linear-gradient(90deg, var(--border), transparent); }
 
-.section-num {
-  font-family: 'Syne', sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--blue);
-  letter-spacing: 0.1em;
-}
-
-.section-header h2 {
-  font-family: 'Syne', sans-serif;
-  font-size: 32px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-}
-
-.section-line {
-  flex: 1;
-  height: 1px;
-  background: linear-gradient(90deg, var(--border), transparent);
-}
-
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 12px;
-}
+.skills-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
 
 .skill-item {
   background: var(--card);
@@ -261,19 +211,8 @@ section { padding: 100px 0; }
   gap: 10px;
   transition: all 0.2s;
 }
-
-.skill-item:hover {
-  border-color: rgba(99,179,237,0.35);
-  background: var(--bg3);
-  transform: translateY(-2px);
-}
-
-.skill-dot {
-  width: 8px; height: 8px;
-  border-radius: 50%;
-  flex-shrink: 0;
-}
-
+.skill-item:hover { border-color: rgba(99,179,237,0.35); background: var(--bg3); transform: translateY(-2px); }
+.skill-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
 .skill-item span { font-size: 13px; font-weight: 500; color: var(--text); }
 
 .projects-grid { display: grid; gap: 20px; }
@@ -287,7 +226,6 @@ section { padding: 100px 0; }
   position: relative;
   overflow: hidden;
 }
-
 .project-card::before {
   content: '';
   position: absolute;
@@ -297,40 +235,19 @@ section { padding: 100px 0; }
   opacity: 0;
   transition: opacity 0.2s;
 }
-
 .project-card:hover { border-color: rgba(99,179,237,0.3); transform: translateX(4px); }
 .project-card:hover::before { opacity: 1; }
 
-.project-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 12px;
-}
-
-.project-name {
-  font-family: 'Syne', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: -0.01em;
-}
-
+.project-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; }
+.project-name { font-family: 'Syne', sans-serif; font-size: 18px; font-weight: 700; }
 .project-link {
-  font-size: 12px;
-  color: var(--blue);
-  text-decoration: none;
-  border: 1px solid rgba(99,179,237,0.3);
-  padding: 4px 12px;
-  border-radius: 20px;
-  transition: all 0.2s;
-  white-space: nowrap;
+  font-size: 12px; color: var(--blue); text-decoration: none;
+  border: 1px solid rgba(99,179,237,0.3); padding: 4px 12px;
+  border-radius: 20px; transition: all 0.2s; white-space: nowrap;
 }
 .project-link:hover { background: var(--accent-glow); }
-
 .project-desc { font-size: 14px; line-height: 1.7; color: #a0aec0; margin-bottom: 16px; }
-
 .project-tags { display: flex; gap: 8px; flex-wrap: wrap; }
-
 .tag { font-size: 11px; font-weight: 500; padding: 3px 10px; border-radius: 20px; letter-spacing: 0.04em; }
 .tag-blue { background: rgba(99,179,237,0.12); color: var(--blue); }
 .tag-teal { background: rgba(79,209,197,0.12); color: var(--teal); }
@@ -342,26 +259,19 @@ section { padding: 100px 0; }
   border-radius: 14px;
   padding: 28px 32px;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
   gap: 24px;
+  align-items: flex-start;
   transition: border-color 0.2s;
 }
 .edu-card:hover { border-color: rgba(99,179,237,0.3); }
-
 .edu-badge {
   background: linear-gradient(135deg, rgba(99,179,237,0.15), rgba(183,148,244,0.1));
   border: 1px solid rgba(99,179,237,0.2);
-  border-radius: 10px;
-  padding: 14px 18px;
-  text-align: center;
-  min-width: 80px;
-  flex-shrink: 0;
+  border-radius: 10px; padding: 14px 18px;
+  text-align: center; min-width: 80px; flex-shrink: 0;
 }
-
 .edu-badge-year { font-family: 'Syne', sans-serif; font-size: 22px; font-weight: 800; color: var(--blue); line-height: 1; }
 .edu-badge-label { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; margin-top: 4px; }
-
 .edu-content h3 { font-family: 'Syne', sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 4px; }
 .edu-institution { font-size: 14px; color: var(--teal); font-weight: 500; margin-bottom: 10px; }
 .edu-desc { font-size: 14px; line-height: 1.65; color: #a0aec0; }
