@@ -1,87 +1,179 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <title>Hoja de vida</title>
-    <style>
-        body {
-          background-image: url('fondo negro.jpg');
-          background-repeat: no-repeat;
-          background-attachment: fixed;  
-          background-size: cover;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tatiana Barbosa — Desarrolladora de Software</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
 </head>
-<body style="color: white;">
-    <h1>Maryory Tatiana Barbosa Vanegas</h1>
-    <p>Web developer Fullstack Python</p>
-    <p>Email: <a href="mailto:Tstianabarbosa@gmail.com">Tstianabarbosa@gmail.com</a></p>
-    <p>Teléfono: +57 3214478655</p>
-    <p>Ubicación: Bogotá, Colombia</p>
-    <p><a href="https://github.com/Tatianabarbosa16" target="_blank">Perfil GitHub</a></p>
-    <p><a href="https://www.linkedin.com/in/maryory-tatiana-barbosa-vanegas/" target="_blank">Perfil LinkedIn</a></p>
+<body>
 
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="proyectos.html" target="_blank">Detalles Proyecto</a></li>
-        </ul>
-    </nav>
+<nav>
+  <div class="nav-logo">TB.</div>
+  <ul class="nav-links">
+    <li><a href="#habilidades">Habilidades</a></li>
+    <li><a href="#proyectos">Proyectos</a></li>
+    <li><a href="#educacion">Educación</a></li>
+  </ul>
+</nav>
 
-<section>
-    <h2>Perfil</h2>
-    <p>Desarrolladora web full stack con conocimiento en programación a través de Python y con el uso de frameworks como Pandas, Numpy, Matplotlib. Me destaco por mi capacidad para adaptarme al cambio, trabajar en equipo y creatividad.</p>
-</section>
-    <h2>Experiencia</h2> 
-    <strong>< >Ada School</p></strong>
-    <ul>
-        <li><strong>2023: Proyecto ADA School</strong><br/>
-            Creación de proyectos, clases y ejercicios aplicando conocimientos como Python, Numpy, Pandas  Matplotlib, Poo  y Git. Donde he podido colaborar de manera colaborativa, cargándolos a Git.
-            Colaborando en equipo para diseñar y programar mejores soluciones aplicando los conocimientos en programación.
-        </li>
-    </ul>
+<div class="wrapper">
 
-    <h3>Habilidades Técnicas</h3>
-    <table>
-        <tr>
-            <th>Habilidad</th>
-            <th>Nivel</th>
-        </tr>
-        <tr>
-            <td>Python</td>
-            <td>Intermedio</td>
-        </tr>
-        <tr>
-            <td>HTML</HTML></td>
-            <td>Intermedio</td>
-        </tr>
-        <tr>
-            <td>CSS</td>
-            <td>Intermedio</td>
-        </tr>
-        <tr>
-            <td>Pandas</td>
-            <td>Basico</td>
-        </tr>
-        <tr>
-            <td>Django</td>
-            <td>Basico</td>
-        </tr>
-     </table>
+  <section class="hero">
+    <div class="hero-tag">Disponible para oportunidades</div>
+    <h1>Tatiana<br><span>Barbosa.</span></h1>
+    <div class="hero-sub">Desarrolladora de Software Junior</div>
+    <p class="hero-desc">
+      Estudiante de Análisis y Desarrollo de Software en el SENA, Bogotá.
+      Apasionada por construir soluciones reales con código.
+      Con proyectos en Java, Spring Boot y desarrollo web desde antes de entrar a estudiar formalmente.
+    </p>
+    <div class="hero-cta">
+      <a href="https://github.com/Tatianabarbosa16" target="_blank" class="btn btn-primary">Ver GitHub</a>
+      <a href="#proyectos" class="btn btn-outline">Ver proyectos</a>
+    </div>
+    <div class="scroll-hint">
+      <span class="scroll-line"></span>
+      Scroll para explorar
+    </div>
+  </section>
 
-     <form action="#" method="post">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="user_email">
-     
-        <label for="message">Mensaje:</label>
-        <textarea id="message" name="user_message"></textarea>
-     
-        <input type="submit" value="Contactar">
-     </form>
+  <section id="habilidades">
+    <div class="section-header reveal">
+      <span class="section-num">01</span>
+      <h2>Habilidades técnicas</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-grid reveal">
+      <div class="skill-item"><span class="skill-dot" style="background:#63b3ed"></span><span>Java</span></div>
+      <div class="skill-item"><span class="skill-dot" style="background:#4fd1c5"></span><span>Spring Boot</span></div>
+      <div class="skill-item"><span class="skill-dot" style="background:#f6e05e"></span><span>Python</span></div>
+      <div class="skill-item"><span class="skill-dot" style="background:#f6ad55"></span><span>HTML</span></div>
+      <div class="skill-item"><span class="skill-dot" style="background:#76e4f7"></span><span>CSS</span></div>
+      <div class="skill-item"><span class="skill-dot" style="background:#68d391"></span><span>Git / GitHub</span></div>
+      <div class="skill-item"><span class="skill-dot" style="background:#b794f4"></span><span>SQL básico</span></div>
+    </div>
+  </section>
+
+  <section id="proyectos">
+    <div class="section-header reveal">
+      <span class="section-num">02</span>
+      <h2>Proyectos</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-top">
+          <div class="project-name">Juego Nave Espacial 🚀</div>
+          <a href="https://github.com/Tatianabarbosa16/Juego-nave-espacial" target="_blank" class="project-link">Ver repo →</a>
+        </div>
+        <p class="project-desc">
+          Videojuego "Ataque Espacial" desarrollado con Pygame. Controlas una nave espacial que dispara enemigos en movimiento. Implementa sprites, detección de colisiones, bucle de juego y sistema de puntuación. Desarrollado de forma autodidacta antes de entrar al SENA.
+        </p>
+        <div class="project-tags">
+          <span class="tag tag-blue">Python</span>
+          <span class="tag tag-teal">Pygame</span>
+          <span class="tag tag-purple">Autodidacta</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-top">
+          <div class="project-name">Laberinto de Texto 🧩</div>
+          <a href="https://github.com/Tatianabarbosa16/TatianaLaberinto" target="_blank" class="project-link">Ver repo →</a>
+        </div>
+        <p class="project-desc">
+          Videojuego de texto donde el jugador navega laberintos usando teclas de flecha. El laberinto se construye desde una cadena de texto convertida en matriz bidimensional. Visualización en consola con actualización en tiempo real de posición.
+        </p>
+        <div class="project-tags">
+          <span class="tag tag-blue">Python</span>
+          <span class="tag tag-teal">Matrices 2D</span>
+          <span class="tag tag-purple">Lógica de juego</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-top">
+          <div class="project-name">Análisis de Datos 📊</div>
+          <a href="https://github.com/Tatianabarbosa16/Ana-lisis-de-datos" target="_blank" class="project-link">Ver repo →</a>
+        </div>
+        <p class="project-desc">
+          Exploración y visualización de datasets reales usando Python y Jupyter Notebook. Incluye carga, limpieza y análisis de datos con generación de gráficas.
+        </p>
+        <div class="project-tags">
+          <span class="tag tag-blue">Python</span>
+          <span class="tag tag-teal">Jupyter Notebook</span>
+          <span class="tag tag-purple">Data analysis</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-top">
+          <div class="project-name">Hoja de Vida Web 💻</div>
+          <a href="https://github.com/Tatianabarbosa16/Hoja-de-vida-" target="_blank" class="project-link">Ver repo →</a>
+        </div>
+        <p class="project-desc">
+          Portafolio personal desarrollado en HTML y CSS desde cero, sin frameworks ni plantillas. Diseño propio con fondo personalizado y estructura multipage.
+        </p>
+        <div class="project-tags">
+          <span class="tag tag-blue">HTML</span>
+          <span class="tag tag-teal">CSS</span>
+          <span class="tag tag-purple">Autodidacta</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="educacion">
+    <div class="section-header reveal">
+      <span class="section-num">03</span>
+      <h2>Educación</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="edu-card reveal">
+      <div class="edu-badge">
+        <div class="edu-badge-year">27</div>
+        <div class="edu-badge-label">Grad.</div>
+      </div>
+      <div class="edu-content">
+        <h3>Tecnología en Análisis y Desarrollo de Software</h3>
+        <div class="edu-institution">SENA — Servicio Nacional de Aprendizaje · Bogotá, Colombia</div>
+        <p class="edu-desc">
+          Formación en desarrollo de software con énfasis en Java, Spring Boot, bases de datos y metodologías ágiles. Inicio: 2025 · Graduación estimada: 2027.
+        </p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrapper">
+    <div class="footer-name">Tatiana Barbosa · Bogotá, Colombia</div>
+    <div class="footer-links">
+      <a href="https://github.com/Tatianabarbosa16" target="_blank">GitHub</a>
+      <a href="mailto:tvanegas281@gmail.com">tvanegas281@gmail.com</a>
+      <a href="https://linkedin.com/in/tatiana-vanegas-dev" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('visible'), i * 80);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  reveals.forEach(el => observer.observe(el));
+</script>
+
 </body>
 </html>
 
